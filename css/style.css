@@ -1,0 +1,86 @@
+.heading{
+  font-family: 'Lobster', cursive;
+}
+.navbar .navbar-brand img {
+    height: 20px;
+  }
+
+  .navbar a:hover{
+    background-color : yellow;
+    color: black !important;  
+  }
+
+  .navbar .navbar-brand {
+    padding-top: 0;
+  }
+
+  .navbar .nav-link {
+    color: white!important;
+  }
+
+  .navbar .button-collapse {
+    padding-top: 1px;
+  }
+
+  .card-intro .card-body {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-radius: 0 !important;
+  }
+
+  .card-intro .card-body h1 {
+    margin-bottom: 0;
+  }
+
+  .card-intro {
+    margin-top: 64px;
+  }
+
+  @media (max-width: 450px) {
+    .card-intro {
+      margin-top: 56px;
+    }
+  }
+
+  @media (min-width: 1441px) {
+    .card-intro {
+      padding-left: 0 !important;
+    }
+  }
+  @media only screen and (min-width: 765px) {
+    .j1 {
+      border-right: 2px solid black;
+      font-family: 'Lobster', cursive;
+      text-shadow: 2px 2px gold;
+    }
+  }
+  @media only screen and (min-width: 640px) {
+    .top {
+      font-size: 3rem;
+      text-shadow: 2px 2px gold;
+      font-family: 'Lobster', cursive;
+    }
+  @media only screen and (max-width: 640px) {
+      .top {
+        font-size: 1rem;
+      }
+  }
+  
+
+  .section{
+    background: url("https://images.unsplash.com/photo-1508873535684-277a3cbcc4e8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:50vh;
+}
+p{
+  font-weight: 600;
+}
+.jumbotron{
+  background:darkgray;
+}
+/* .contact_content{
+  display:flex;
+  justify-content: center;
+} */
